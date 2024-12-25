@@ -23,10 +23,10 @@ void strChange(int* s, const int num)
 int main()
 {
 	int num;
-	cout << "ÇëÊäÈëÊı×éµÄÔªËØ¸öÊı£º";
+	cout << "è¯·è¾“å…¥æ•°ç»„çš„å…ƒç´ ä¸ªæ•°ï¼š";
 	cin >> num;
 	int* s = new int[num];
-	cout << "ÇëÊäÈëÊı×éµÄÔªËØ£º";
+	cout << "è¯·è¾“å…¥æ•°ç»„çš„å…ƒç´ ï¼š";
 	for (int i = 0; i < num; i++)
 	{
 		cin >> s[i];
