@@ -19,9 +19,9 @@ int parseHex(const char* const hexString)
 int main()
 {
 	char hexString[100];
-	cout << "ÇëÊäÈëÒÔ×Ö·û´®ÐÎÊ½±íÊ¾µÄÒ»¸ö16½øÖÆÊý£º";
+	cout << "è¯·è¾“å…¥ä»¥å­—ç¬¦ä¸²å½¢å¼è¡¨ç¤ºçš„ä¸€ä¸ª16è¿›åˆ¶æ•°ï¼š";
 	cin >> hexString;
 	int sum = parseHex(hexString);
-	cout << "×ª»»ºóµÄ10½øÖÆÊýÎª£º"<<sum<<endl;
+	cout << "è½¬æ¢åŽçš„10è¿›åˆ¶æ•°ä¸ºï¼š"<<sum<<endl;
 	system("pause");
 }
